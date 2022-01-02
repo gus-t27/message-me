@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a instant chat messaging application built with rails using action cable. Design is not currently responsive on mobile devices.
 
-Things you may want to cover:
+### Setup:
 
-* Ruby version
+1. Clone the repo
+2. Install gems - `bundle install`
+3. Install packages - `npm install` **OR** `yarn` depending on your package manager
+4. Set up the DB - `rails db:create`
+5. Migrate DB - `rails db:migrate`
+6. Seed the DB - `rails db:seed`
 
-* System dependencies
+### Development:
 
-* Configuration
+1. Start the rails server - `rails s`
+2. Head to [localhost:3000](http://localhost:3000/)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Happy Messaging!
